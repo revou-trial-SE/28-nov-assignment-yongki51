@@ -3,7 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style/style.css" />
   </head>
-  <body></body>
+  <body>
+    <nav class="navbar fixed-top bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Home</a>
+        <a class="navbar-brand" href="#">About Me</a>
+        <a
+          class="navbar-brand"
+          href="https://www.linkedin.com/in/yongki-christian-sanjaya-a91b6911b"
+          target="_blank"
+          >LinkedIn</a
+        >
+      </div>
+    </nav>
+    <header class="hero-image">
+      <div class="hero-text p-2 rounded">
+        <h1 class="hero-text--font-size">Yongki Christian Sanjaya</h1>
+        <p>Software Engineer</p>
+      </div>
+    </header>
+    <main class="d-flex justify-content-evenly">
+      <div class="card mt-3 text-center" style="width: 18rem">
+        <img src="assets/card.jpeg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Mobile with Flutter</h5>
+          <p class="card-text">Develope mobile application using Flutter</p>
+        </div>
+      </div>
+      <div class="card mt-3 text-center" style="width: 18rem">
+        <img src="assets/card.jpeg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Web with React</h5>
+          <p class="card-text">Developer Web using React</p>
+        </div>
+      </div>
+    </main>
+    <hr />
+    <footer class="text-center pb-3">
+      created by Yongki Christian Sanjaya
+    </footer>
+  </body>
 </html>
