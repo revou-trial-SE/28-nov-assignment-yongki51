@@ -58,4 +58,8 @@ html {
     flex-direction: column;
     align-items: center;
   }
+
+  .about-me__article2__img--width{
+    width: 90%;
+  }
 }
